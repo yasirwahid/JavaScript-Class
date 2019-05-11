@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+Email : <input type="text" id="email"/>
+Password : <input type="password" id="password"/>
+<button onclick="createUser()" > SignUp  </button>
+
+<p></p>
+
+Email : <input type="text" id="email1"/>
+Password : <input type="password" id="password1"/>
+<button onclick="loginUser()" > SignIn </button>
+
+
+
+<a onclick="resetPassword()" style=" color:blue" href="#">Reset password</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-firestore.js"></script>
+
+  <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDJ0logGKmPTm2hEomWgyWDgeCt-jmmgH0",
+          authDomain: "javascript-class-71652.firebaseapp.com",
+          databaseURL: "https://javascript-class-71652.firebaseio.com",
+          projectId: "javascript-class-71652",
+          storageBucket: "javascript-class-71652.appspot.com",
+          messagingSenderId: "332099564061",
+          appId: "1:332099564061:web:fe9d951d54ad8626"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+
+
+    <script src="app.js">
+        
+    </script>
+</body>
+</html>
